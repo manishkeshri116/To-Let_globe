@@ -1,0 +1,121 @@
+/* Home.css */
+
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+ 
+
+}
+
+.home-page h1 {
+  text-align: left;
+  color: #16a6b3;
+}
+
+.home-page p {
+  text-align:left;
+  color: #26689e;
+}
+
+
+#img{
+  height:400px;
+  width: 700px;
+  margin-top: 120px;
+  margin-left: -40px;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+
+
+.map-container{
+  margin-top: 150px;
+  margin-left: -80px;
+  /* flex: 1; */
+  min-width: 800px;
+  height: 400px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+h1{
+  margin-bottom: 10px;
+}
+p{
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #d9e5f1;
+  
+}
+.contact-form-container {
+  flex: 1;
+  min-width: 300px;
+  color: #16a6b3;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+/* Ensures both containers have the same height */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* color: #16a6b3; */
+  background: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Makes the form take up the full height of the container */
+  box-sizing: border-box;
+}
+
+.contact-form label {
+  font-size: 16px;
+  /* color: white; */
+  color: #dbe1e8;
+  /* margin-left: 0px; */
+  /* margin-bottom: 5px; */
+  text-align: left ;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  /* border: 1px solid #bdc3c7; */
+  border-radius: 0px; 
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  /* padding: 10px; */
+  font-size: 20px;
+  color: #e7b80b;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  /* background-color: #34495e; */
+  cursor: pointer;
+}

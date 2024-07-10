@@ -1,0 +1,214 @@
+* {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  margin-top: 40px;
+  gap: 60px;
+}
+
+.content {
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+p {
+  color: rgb(189, 182, 182);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: initial;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.chat,
+.call {
+  flex-basis: 45%;
+  color: white;
+  background-color: black;
+}
+
+#cu {
+  margin-left: 60px;
+}
+
+.chat i,
+.call i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.chat a,
+.call p {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.chat a:hover,
+.call p:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.form {
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border: 1px solid #97e1f2;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group textarea {
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content,
+  .form {
+    margin-top: 20px;
+  }
+
+  .contact-options {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 14px;
+    height: 2.5rem;
+    padding: 0 1.2rem;
+  }
+}
